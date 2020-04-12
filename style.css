@@ -1,0 +1,133 @@
+
+* {
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+
+
+
+main{
+	width: 100%;
+}
+.eachimg{
+	float: left;
+	width: 200px;
+    
+}
+
+
+.first ul{
+	clear: left;
+	width: 100%;
+	float: left;
+	background: black;
+}
+
+.first li{
+	float: left;
+	padding-right: 18px;
+	color: white;
+	margin: 7px 0;
+	font-size: 6px;
+
+}
+
+.title{
+	border-bottom: 1px solid black;
+	border-left: 3px solid black;
+	
+	font-weight: bold;
+		clear: both;
+		
+
+	}
+	
+	
+	.bookstore{
+		
+
+
+	}
+	.sidebar{
+		
+		float: right;
+		display: inline-block;
+		
+		width: 25%;
+
+	}
+	.st{
+		
+		border-bottom: 1px dotted black;
+		margin-bottom: 10px;
+	}
+
+	.sidetitle li{
+		padding-bottom: 15px;
+		position: relative; 
+		left: 5px;
+
+	}
+
+	.st{
+		font-size: large;
+		font-weight: bold;
+	}
+.contents{
+	background-color: silver;
+	display: flex;
+	flex-wrap:wrap;
+	box-sizing: border-box;
+
+}
+
+.content{
+    width: 25%;
+    padding-top: 15px;
+	 padding-right:6px;
+     padding-left: 6px;
+	
+}
+	 
+.left{
+	float: left; 
+	width: 70%;
+}
+
+
+img{
+	
+	height:auto;
+	max-width: 100%;
+	overflow: hidden;
+	padding-bottom: 0;
+
+}
+
+.content p{
+	text-align: center;
+}
+
+footer{
+	background-color: black;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	margin-top: 10px;
+
+
+}
+.foot{
+	text-align: center;
+	color: white;
+	font-size: small;
+}
+
+
+
+
+
+
+
